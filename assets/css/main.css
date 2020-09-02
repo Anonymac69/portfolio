@@ -12,11 +12,14 @@
 /* Navigation styles */
 .nav {
   align-items: start;
-  /* border: 1px solid red; */
+  background: #fff !important;
   display: flex;
   flex: 1 1 10%;
   justify-content: space-between;
   padding: 12px 10px 0 10px !important;
+  position: fixed;
+  width: 100% !important;
+  z-index: 1000;
 }
 
 .nav-brand, .nav-brand > a {
@@ -214,7 +217,7 @@
   /* border: 1px solid #8a8a8a; */
   display: flex;
   justify-content: flex-end;
-  padding: 30px 70px 10px 0;
+  padding: 80px 70px 10px 0;
 }
 
 
@@ -407,7 +410,7 @@
   display: flex;
   flex-flow: column wrap;
   margin: 50px auto !important;
-  padding: 10px 20px !important;
+  padding: 10px 30px;
 }
 
 .about .body {
@@ -426,7 +429,7 @@
 .about .body p {
   /* border: 1px solid red; */
   color: #0f141e;
-  margin: 7px 0;
+  margin: 5px 0;
   width: 100%;
 }
 
@@ -447,10 +450,13 @@
   color: #0099ff;
 }
 
-.container {
-  border: 1px solid red;
-  display: flex;
-  flex-direction: column;
+.carousel {
+  background: url('../img/pc01.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3px;
+  height: 500px;
 }
 
 
